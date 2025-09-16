@@ -775,7 +775,7 @@ class DraggableMobileActions extends StatelessWidget {
                   ),*/
 
                    AntiShakeButton(
-                    text: "开启黑屏",
+                    text: "黑屏",
                     scale: scale,
                     enabledBackgroundColor: Colors.green,   
                     disabledBackgroundColor: Colors.black26, 
@@ -783,7 +783,7 @@ class DraggableMobileActions extends StatelessWidget {
                   ),
 
                    AntiShakeButton(
-                    text: "关闭黑屏",
+                    text: "亮屏",
                     scale: scale,
                     enabledBackgroundColor: Colors.red,   
                     disabledBackgroundColor: Colors.black26, 
@@ -808,7 +808,7 @@ class DraggableMobileActions extends StatelessWidget {
                     ),
                     elevation: 4,                               // 阴影高度，使按钮凸起
                   ),
-                  child: const Text("开启黑屏"),
+                  child: const Text("开启亮屏"),
                 ),
                      ElevatedButton(
                   onPressed: () => onScreenMaskPressed?.call('关'),
@@ -828,7 +828,7 @@ class DraggableMobileActions extends StatelessWidget {
                     ),
                     elevation: 4,                               // 阴影高度，使按钮凸起
                   ),
-                  child: const Text("关闭黑屏"),
+                  child: const Text("关闭亮屏"),
                 ),*/
                   
                    /*
